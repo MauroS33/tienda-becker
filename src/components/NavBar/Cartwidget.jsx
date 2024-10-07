@@ -1,9 +1,12 @@
-const CartWidget = () => {
-    return (
-        <div>
-            <img src="" alt="" />
-            <p>1</p>
-        </div>
-    )
+import React from 'react'
+
+const Cartwidget = () => {
+  return (
+    <div>
+      <img src="" alt="carrito" />
+      <p>1</p>
+    </div>
+  )
 }
-export default CartWidget
+
+export default Cartwidget
