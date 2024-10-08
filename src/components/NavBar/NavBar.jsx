@@ -2,9 +2,10 @@ import CartWidget from "./Cartwidget"
 
 const NavBar = () => {
     return (
-        <div>
+        <nav>
             <div className="marca">
-                <h2>Ecommerce</h2>
+                <h2>CAB</h2>
+                <img src="../assets/logo nuevo.jpg" alt="logo" />
             </div>
 
             <ul>
@@ -14,9 +15,10 @@ const NavBar = () => {
                 <li>Ropa de abrigo</li>
             </ul>
 
-            <CartWidget/>
-        </div>
+            <CartWidget />
+        </nav>
     )
 }
+
 
 export default NavBar
