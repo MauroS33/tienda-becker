@@ -1,3 +1,4 @@
+import img from "../../assets/logo-nuevo.jpg"
 import CartWidget from "./Cartwidget"
 
 const NavBar = () => {
@@ -5,7 +6,7 @@ const NavBar = () => {
         <nav>
             <div className="marca">
                 <h2>CAB</h2>
-                <img src="../assets/logo nuevo.jpg" alt="logo" />
+                <img src= {img} alt="logo" />
             </div>
 
             <ul>
