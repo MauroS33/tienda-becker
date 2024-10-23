@@ -1,22 +1,31 @@
-import img from "../../assets/logo-nuevo.jpg"
 import CartWidget from "./Cartwidget"
+/* import { BsBox} from "react-icons/bs"; */
+import { Link } from "react-router-dom";
+
+import img from "../../assets/logo-nuevo.jpg"
+import "./navbar.css"
 
 const NavBar = () => {
     return (
-        <nav>
-            <div className="marca">
-                <h2>CAB</h2>
-                <img src= {img} alt="logo" />
-            </div>
+        <nav className="navbar">
 
-            <ul>
-                <li>Ropa de juego</li>
-                <li>Ropa de entrenamiento</li>
-                <li>Accesorios</li>
-                <li>Ropa de abrigo</li>
+            <ul className="categories">
+                <li className="category">
+                    <Link to="category/Ropa de juego" >Ropa de juego</Link>
+                </li>
+                <li className="category">
+                    <Link to="category/Ropa de entrenamiento" >Ropa de entrenamiento</Link>
+                </li>
+                <li className="category">
+                    <Link to="category/Accesorios" >Accesorios</Link>
+                </li>
             </ul>
 
-            <CartWidget />
+            <Link to="/" className="brand primary-font-color">
+{/*                 <BsBox className="icon-brand" /> */}
+                <p className="title-brand ">Box Ecommerce</p>
+            </Link>
+            <CartWidget/>
         </nav>
     )
 }

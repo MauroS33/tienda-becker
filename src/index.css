@@ -47,7 +47,7 @@ ul li:hover {
   align-items: center;
 }
 
-/* Responsivo: Ajustar el diseño en pantallas más pequeñas */
+/* /* Responsivo: Ajustar el diseño en pantallas más pequeñas */
 @media (max-width: 768px) {
   nav {
       flex-direction: column;
@@ -63,3 +63,4 @@ ul li:hover {
       margin: 1rem 0;
   }
 }
+ 

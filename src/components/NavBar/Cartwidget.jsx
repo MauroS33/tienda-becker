@@ -3,7 +3,7 @@ import React from 'react'
 
 const Cartwidget = () => {
   return (
-    <div>
+    <div className="cartWidget">
       <img src= {krt} alt="carrito" />
       <p>1</p>
     </div>
