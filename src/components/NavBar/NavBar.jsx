@@ -11,19 +11,19 @@ const NavBar = () => {
 
             <ul className="categories">
                 <li className="category">
-                    <Link to="category/Ropa de juego" >Ropa de juego</Link>
+                    <Link to="category/ropa de juego" >Ropa de juego</Link>
                 </li>
                 <li className="category">
-                    <Link to="category/Ropa de entrenamiento" >Ropa de entrenamiento</Link>
+                    <Link to="category/ropa de entrenamiento" >Ropa de entrenamiento</Link>
                 </li>
                 <li className="category">
-                    <Link to="category/Accesorios" >Accesorios</Link>
+                    <Link to="category/accesorios" >Accesorios</Link>
                 </li>
             </ul>
 
             <Link to="/" className="brand primary-font-color">
 {/*                 <BsBox className="icon-brand" /> */}
-                <p className="title-brand ">Box Ecommerce</p>
+                <p className="title-brand ">Tienda Churrera</p>
             </Link>
             <CartWidget/>
         </nav>

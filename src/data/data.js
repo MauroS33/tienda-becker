@@ -74,7 +74,7 @@ const products = [
     {
         id: "acc1",
         name: "gorra",
-        descripcion: "gorra escudo",
+        descripcion: "gorra negra con logo bordado rasta",
         price: 590,
         stock: 100,
         image: "/img/gorra.jpg",
