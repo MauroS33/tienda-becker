@@ -1,8 +1,8 @@
 const products = [
     {
         id: "reju1",
-        name: "home jersey",
-        descripcion: "remera local",
+        name: "Casaca Verde",
+        description: "Remera de juego para partidos de local, estilo clasico de Adidas decada 90s en verde con vivos en rojo amarillo y negro. Escudo vinilico y logo de los 15 años.",
         price: 2000,
         stock: 10,
         image: "/img/remera-verde-nueva.jpg", /* la barra sola es una ruta absoluta a la carpeta public */
@@ -10,8 +10,8 @@ const products = [
     },  
     {
         id: "reju2",
-        name: "away jersey",
-        descripcion: "remera visitante",
+        name: "Casaca Gris",
+        description: "Remera para oficiar de visitante en color gris metalizado, escudo vinilico y logo de los 15 años.",
         price: 2000,
         stock: 10,
         image: "/img/remera-gris.jpg", /* la barra sola es una ruta absoluta a la carpeta public */
@@ -19,8 +19,8 @@ const products = [
     },
     {
         id: "reju3",
-        name: "alt jersey",
-        descripcion: "remera alterna",
+        name: "Casaca Golero",
+        description: "Remera de juego para portero, diseño en negro con alusion al clasico de la primer casaca del Club",
         price: 2000,
         stock: 10,
         image: "/img/remera-alt.jpg", /* la barra sola es una ruta absoluta a la carpeta public */
@@ -28,8 +28,8 @@ const products = [
     },
     {
         id: "shju1",
-        name: "home short",
-        descripcion: "short local",
+        name: "Short Local",
+        description: "Short en negro con las lineas clasicas de Adidas formando nuestra bandera.",
         price: 800,
         stock: 10,
         image: "/img/short.jpg", /* la barra sola es una ruta absoluta a la carpeta public */
@@ -37,8 +37,8 @@ const products = [
     },
     {
         id: "shju2",
-        name: "away short",
-        descripcion: "short visitante",
+        name: "Short Alternativo",
+        description: "Short para usar con la indumentaria de visitante, color negro y con las lineas modernas de Adidas a tono de nuestra bandera.",
         price: 800,
         stock: 10,
         image: "/img/short2.png", /* la barra sola es una ruta absoluta a la carpeta public */
@@ -46,8 +46,8 @@ const products = [
     },
     {
         id: "reen1",
-        name: "train jersey",
-        descripcion: "remera entrenamiento",
+        name: "Casaca de Entrenamiento",
+        description: "Remera de entrenamiento para los partidos oficiales, base negra con formas geometricas verdes, amarillas y rojas.",
         price: 1500,
         stock: 10,
         image: "/img/geometrica.png",
@@ -55,8 +55,8 @@ const products = [
     },
     {
         id: "reen2",
-        name: "alt train jersey",
-        descripcion: "remera alterna de entrenamiento",
+        name: "Casaca de Eventos",
+        description: "remera alternativa de entrenamiento para eventos deportivos extraoficiales, remera de algodon a rayas horizontales finas verdes, amarillas y rojas.",
         price: 1500,
         stock: 10,
         image: "/img/stripes.png",
@@ -64,8 +64,8 @@ const products = [
     },
     {
         id: "eqen1",
-        name: "equipo entrenamiento",
-        descripcion: "equipo de entrenamiento",
+        name: "Equipo de Entrenamiento",
+        description: "Equipo de entrenamiento de media estación, pantalon con bolsillos en negro y campera con cierre y bolsillos con el diseño bandera.",
         price: 4500,
         stock: 10,
         image: "/img/jumpsuit.jpg",
@@ -73,8 +73,8 @@ const products = [
     },
     {
         id: "acc1",
-        name: "gorra",
-        descripcion: "gorra negra con logo bordado rasta",
+        name: "Gorra",
+        description: "Gorra negra con logo bordado rasta",
         price: 590,
         stock: 100,
         image: "/img/gorra.jpg",
@@ -82,8 +82,8 @@ const products = [
     },
     {
         id: "acc2",
-        name: "bufanda",
-        descripcion: "bufanda escudo",
+        name: "Bufanda",
+        description: "Bufanda bandera rasta sin escudo",
         price: 290,
         stock: 100,
         image: "/img/bufanda.png",

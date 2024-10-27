@@ -1,12 +1,23 @@
 .item-detail{
     display: flex;
+    align-content: center;
     justify-content: center;
-    width: 100%;
-    min-height: 90vh;
+    width: 90%;
+    padding: 30px 20px;
+  }
+  .item-detail img{
+    display: flex;
+    width: 400px;
     padding: 100px 0;
   }
   .images-detail-container{
     display: flex;
+    justify-content: center;
+    width: 50%;
+  }
+  .text-detail-container{
+    display: flex;
+    justify-content: center;
     width: 50%;
   }
   .images-detail-container .secondary-images{
