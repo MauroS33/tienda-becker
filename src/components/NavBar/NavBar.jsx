@@ -17,7 +17,7 @@ const NavBar = () => {
                     <Link to="category/ropa de entrenamiento" >Ropa de entrenamiento</Link>
                 </li>
                 <li className="category">
-                    <Link to="category/accesorios" >Accesorios</Link>
+                    <Link to="category/hinchada" >Hinchada</Link>
                 </li>
             </ul>
 

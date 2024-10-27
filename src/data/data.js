@@ -19,7 +19,25 @@ const products = [
     },
     {
         id: "reju3",
+        name: "Equipo Basket",
+        description: "Remera y bermuda de juego para basket, diseño en verde ",
+        price: 2400,
+        stock: 10,
+        image: "/img/juego-basket.jpg", /* la barra sola es una ruta absoluta a la carpeta public */
+        category: "ropa de juego"
+    },
+    {
+        id: "reju4",
         name: "Casaca Golero",
+        description: "Remera de juego para portero, diseño en rojo detalles en negro y lineas Adidas tipo bandera.",
+        price: 2000,
+        stock: 10,
+        image: "/img/golero.jpg", /* la barra sola es una ruta absoluta a la carpeta public */
+        category: "ropa de juego"
+    },
+    {
+        id: "reju5",
+        name: "Casaca Golero Retro",
         description: "Remera de juego para portero, diseño en negro con alusion al clasico de la primer casaca del Club",
         price: 2000,
         stock: 10,
@@ -56,10 +74,19 @@ const products = [
     {
         id: "reen2",
         name: "Casaca de Eventos",
-        description: "remera alternativa de entrenamiento para eventos deportivos extraoficiales, remera de algodon a rayas horizontales finas verdes, amarillas y rojas.",
+        description: "Remera alternativa de entrenamiento para eventos deportivos extraoficiales, remera de algodon a rayas horizontales finas verdes, amarillas y rojas.",
         price: 1500,
         stock: 10,
         image: "/img/stripes.png",
+        category: "ropa de entrenamiento"
+    },
+    {
+        id: "reen3",
+        name: "Casaca de Entrenamiento de Basket",
+        description: "Remera en negro con triengulos verdes, rojos y amarillos, escudo basket.",
+        price: 1500,
+        stock: 10,
+        image: "/img/triangulos-basket.png",
         category: "ropa de entrenamiento"
     },
     {
@@ -72,22 +99,58 @@ const products = [
         category: "ropa de entrenamiento"
     },
     {
-        id: "acc1",
+        id: "refan1",
         name: "Gorra",
         description: "Gorra negra con logo bordado rasta",
         price: 590,
         stock: 100,
         image: "/img/gorra.jpg",
-        category: "accesorios"
+        category: "hinchada"
     },
     {
-        id: "acc2",
+        id: "refan2",
         name: "Bufanda",
         description: "Bufanda bandera rasta sin escudo",
         price: 290,
         stock: 100,
         image: "/img/bufanda.png",
-        category: "accesorios"
+        category: "hinchada"
+    },
+    {
+        id: "refan3",
+        name: "Casaca de hinchada",
+        description: "Remera verde con escudo redondo, de algodón.",
+        price: 1500,
+        stock: 10,
+        image: "/img/david-t-shirt.jpg",
+        category: "hinchada"
+    },
+    {
+        id: "refan4",
+        name: "Campera de hinchada",
+        description: "Campera con cierre en rojo con detalles verdes y amarillos, escudo redondo bordado y 100% de algodón.",
+        price: 3500,
+        stock: 10,
+        image: "/img/adidas-social.jpg",
+        category: "hinchada"
+    },
+    {
+        id: "refan5",
+        name: "Canguro de Basket Rojo",
+        description: "Canguro en rojo con detalles verdes y amarillos, escudo basket bordado diagonal y numero de jugador favorito, 100% de algodón.",
+        price: 4500,
+        stock: 10,
+        image: "/img/hoodier.png",
+        category: "hinchada"
+    },
+    {
+        id: "refan5",
+        name: "Canguro de Basket Amarillo",
+        description: "Canguro en amarillo con detalles verdes y rojos, escudo basket bordado diagonal y numero de jugador favorito, 100% de algodón.",
+        price: 4500,
+        stock: 10,
+        image: "/img/hoodiea.png",
+        category: "hinchada"
     }
 ]
 
