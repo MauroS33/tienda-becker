@@ -1,14 +1,12 @@
-import CartWidget from "./Cartwidget"
-/* import { BsBox} from "react-icons/bs"; */
-import { Link } from "react-router-dom";
+import CartWidget from "./Cartwidget";
+import { Link } from "react-router-dom"
 
-import img from "../../assets/logo-nuevo.jpg"
 import "./navbar.css"
 
 const NavBar = () => {
     return (
         <nav className="navbar">
-
+            {/* <img src="/img/Logos/logo-redondo.jpg" alt="Logo Redondo" /> */}
             <ul className="categories">
                 <li className="category">
                     <Link to="category/ropa de juego" >Ropa de juego</Link>

@@ -8,7 +8,7 @@
   .item-detail img{
     display: flex;
     width: 400px;
-    padding: 100px 0;
+    padding: 10px 0;
   }
   .images-detail-container{
     display: flex;
@@ -28,7 +28,6 @@
   }
   .images-detail-container .secondary-images img{
     width: 40%;
-    margin: 10px 0;
     border-radius: 5px;
   }
   .images-detail-container .main-image{
