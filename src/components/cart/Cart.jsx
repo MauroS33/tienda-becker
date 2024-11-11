@@ -28,10 +28,10 @@ const Cart = () => {
             </div>
         ))
       }
-      <p>Precio total: {totalPrice() } </p>
+      <p>Precio total: {totalPrice()} </p>
       <button onClick={deleteCart}>Vaciar carrito</button>
     </div>
   )
 }
-
+ 
 export default Cart

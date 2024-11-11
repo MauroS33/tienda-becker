@@ -10,7 +10,7 @@ const CartProvider = ( {children} ) => {    /* antes de añadir un producto, deb
         const tempCart = [...cart]
         const indexProduct = cart.findIndex ( (productCart) => productCart.id === newProduct.id )
 
-        if (indexProduct >0){
+        if (indexProduct >=0){
             /* si ya esta agregado sumarle nueva cantidad */
             tempCart[indexProduct].quantity = tempCart[indexProduct].quantity + newProduct.quantity
             setCart(tempCart)
