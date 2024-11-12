@@ -1,7 +1,7 @@
 const products = [
     {
         id: "reju1",
-        name: "Casaca Verde clasica",
+        name: "Casaca verde clasica",
         description: "Remera de juego para partidos de local, modelo Adidas 2012 en verde con vivos en rojo amarillo y negro. Escudo bordado.",
         price: 2000,
         stock: 10,
@@ -14,13 +14,13 @@ const products = [
         description: "Remera de juego para partidos de local, estilo clasico de Adidas decada 90s en verde con vivos en rojo amarillo y negro. Escudo vinilico y logo de los 15 años.",
         price: 2000,
         stock: 10,
-        image: [ "/img/verde-adi90s.png", "/img/verde-adi90s1.png","/img/verde-adi90s2.png","/img/verde-adi90s3.png"], /* la barra sola es una ruta absoluta a la carpeta public */
+        image: [ "/img/verde-adi90s.png", "/img/verde-adi90s1.png","/img/verde-adi90s2.png","/img/verde-adi90s3.png"], 
         category: "ropa de juego"
     },
     {
         id: "reju3",
         name: "Equipo Basket",
-        description: "Remera y bermuda de juego para basket, diseño en verde ",
+        description: "Remera y bermuda de juego para basket, diseño en verde.",
         price: 2400,
         stock: 16,
         image: ["/img/juego-basket.png","/img/juego-basket-frente.png","/img/juego-basket-espalda.png"], 
@@ -82,7 +82,7 @@ const products = [
     },
     {
         id: "refan1",
-        name: "Gorra",
+        name: "Pack hincha",
         description: "Pack del hincha, una gorra negra con logo retro bordado rasta, remera verde escudo redondo grande y bufanda rasta.",
         price: 1690,
         stock: 100,
