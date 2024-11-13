@@ -30,6 +30,7 @@ const Cart = () => {
       }
       <p>Precio total: {totalPrice()} </p>
       <button onClick={deleteCart}>Vaciar carrito</button>
+      <Link to="/checkout">Realizar la compra</Link>
     </div>
   )
 }
