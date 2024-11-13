@@ -8,7 +8,7 @@ import "./itemdetail.css"
 
 const ItemDetailContainer = () => {
   const [product, setProduct] = useState({})
- /*    const [loading, setLoading] = useState(true) */
+    const [loading, setLoading] = useState(true)
 
   const { idProduct } = useParams()
 
@@ -16,9 +16,10 @@ const ItemDetailContainer = () => {
     const docRef = doc( db, "products", idProduct )
     getDoc(docRef)
     .then((dataDb)=> {
-      const data = { id: dataDb, ...dataDb.data() }
+      const data = { id: dataDb.id, ...dataDb.data() }
       setProduct(data)
     } )
+    .finally( ()=> setLoading(false) ) 
   }
   useEffect( ()=> {
     getProductsById()
@@ -27,7 +28,7 @@ const ItemDetailContainer = () => {
   return (
     <>
     {
-    /* loading === true ? ( <div>Cargando...</div> ) : */ <ItemDetail product={product} />
+    loading === true ? ( <div>Cargando...</div> ) : <ItemDetail product={product} />
     }
     </>
   )

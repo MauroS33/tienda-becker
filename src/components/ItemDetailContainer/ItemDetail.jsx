@@ -14,7 +14,7 @@ const ItemDetail = ({ product }) => {
     setShowItemCount(false)
   }
 
-  const [currentImage, setCurrentImage] = useState(product.image) /* no me lee el array */
+  const [currentImage, setCurrentImage] = useState(product.image[0]) /* no me lee el array */
 
   const images = product.image.filter((image)=> image !== currentImage)
 

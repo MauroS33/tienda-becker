@@ -10,6 +10,7 @@ const CartProvider = ( {children} ) => {    /* antes de añadir un producto, deb
         const tempCart = [...cart]
         const indexProduct = cart.findIndex ( (productCart) => productCart.id === newProduct.id )
 
+        console.log(newProduct)
         if (indexProduct >=0){
             /* si ya esta agregado sumarle nueva cantidad */
             tempCart[indexProduct].quantity = tempCart[indexProduct].quantity + newProduct.quantity
@@ -19,7 +20,6 @@ const CartProvider = ( {children} ) => {    /* antes de añadir un producto, deb
             setCart( [ ...cart, newProduct ] )
         }
 
-        
     }
 
     const deleteProductById = (idProduct) => {

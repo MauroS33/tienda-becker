@@ -19,7 +19,7 @@ const Cart = () => {
       {
         cart.map((productCart)=> (
             <div key={productCart.id}>
-                <img src={productCart.image} alt="articulo agregado" />  /* hay un error a corregir aqui ya que no se ven imagenes en el carrito porque es un array */
+                <img src={productCart.image[0]} alt="articulo agregado" />  
                 <p> {productCart.name} </p>
                 <p>Precio c/u: {productCart.price} </p>
                 <p>Cantidad: {productCart.quantity} </p>
