@@ -51,6 +51,7 @@ const Checkout = () => {
             })
             .finally(()=>{
                 deleteCart()
+                toast.success("Compra realizada, tu orden será entregada en los proximos 5 dias habiles")
             } )
     }
 

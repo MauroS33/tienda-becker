@@ -1,9 +1,9 @@
 import { object, string, mixed } from "yup"
 
 let userSchema = object( {
-    fullname: string().required(),
-    phone: mixed().required(),
-    email: string().email().required
+    fullname: string().required("El campo nombre es requerido"),
+    phone: mixed().required("El campo telefono es requerido"),
+    email: string().email().required("El campo email esta incorrecto o vacio")
 })
 
 const validateForm = async(dataForm) => {
