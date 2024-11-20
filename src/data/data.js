@@ -5,7 +5,7 @@ const products = [
         description: "Remera de juego para partidos de local, modelo Adidas 2012 en verde con vivos en rojo amarillo y negro. Escudo bordado.",
         price: 2000,
         stock: 10,
-        image: [ "/img/clasica.png", "/img/clasica1.png","/img/becker-clasica.png" ], /* la barra sola es una ruta absoluta a la carpeta public */
+        image: [ "/img/clasica.png", "/img/clasica1.png","/img/becker-clasica.png", "/img/erra-clasica.png" ], /* la barra sola es una ruta absoluta a la carpeta public */
         category: "ropa de juego"
     },  
     {
@@ -23,7 +23,7 @@ const products = [
         description: "Remera y bermuda de juego para basket, diseño en verde.",
         price: 2400,
         stock: 16,
-        image: ["/img/juego-basket.png","/img/juego-basket-frente.png","/img/juego-basket-espalda.png"], 
+        image: ["/img/juego-basket.png","/img/juego-basket-frente.png","/img/juego-basket-espalda.png","/img/juego-basket-frente-simple.png"], 
         category: "ropa de juego"
     },
     {
@@ -41,7 +41,7 @@ const products = [
         description: "Short en negro con las lineas clasicas de Adidas formando nuestra bandera.",
         price: 800,
         stock: 17,
-        image: ["/img/short.png", "/img/negra-dt-bordes.png","/img/negra-dt-bordes1.png"], 
+        image: ["/img/short.png", "/img/negra-dt-bordes.png","/img/negra-dt-bordes1.png","/img/short6.png"], 
         category: "ropa de juego"
     },
     {
@@ -50,7 +50,7 @@ const products = [
         description: "Short para usar con la indumentaria de visitante, color negro y con las lineas modernas de Adidas a tono de nuestra bandera.",
         price: 800,
         stock: 12,
-        image: ["/img/short2.png","/img/short3.png","/img/short4.png","/img/short5.png"], 
+        image: ["/img/short2.png","/img/short3.png","/img/short4.png","/img/short5.png,"], 
         category: "ropa de juego"
     },
     {
@@ -86,7 +86,7 @@ const products = [
         description: "Pack del hincha, una gorra negra con logo retro bordado rasta, remera verde escudo redondo grande y bufanda rasta.",
         price: 1690,
         stock: 100,
-        image: ["/img/gorra.png","/img/david-t-shirt.png","/img/bufanda.png"],
+        image: ["/img/david-t-shirt-hat-scarf.png","/img/gorra.png","/img/david-t-shirt.png","/img/bufanda.png"],
         category: "hinchada"
     },
     {

@@ -6,7 +6,7 @@ import "./navbar.css"
 const NavBar = () => {
     return (
         <nav className="navbar">
-            {/* <img src="/img/Logos/logo-redondo.jpg" alt="Logo Redondo" /> */}
+            <img src="/img/escudos/logo-redondo.png" alt="Logo Redondo" />
             <ul className="categories">
                 <li className="category">
                     <Link to="category/ropa de juego" >Ropa de juego</Link>
@@ -15,12 +15,11 @@ const NavBar = () => {
                     <Link to="category/ropa de entrenamiento" >Ropa de entrenamiento</Link>
                 </li>
                 <li className="category">
-                    <Link to="category/hinchada" >Hinchada</Link>
+                    <Link to="category/hinchada" >Ropa Social</Link>
                 </li>
             </ul>
 
-            <Link to="/" className="brand primary-font-color">
-{/*                 <BsBox className="icon-brand" /> */}
+            <Link to="/" className="home-store">
                 <p className="title-brand ">Tienda Churrera</p>
             </Link>
             <CartWidget/>

@@ -31,7 +31,7 @@ const CartProvider = ( {children} ) => {    /* antes de añadir un producto, deb
         setCart([])
     }
 
-    const totalQuantity = () => {  /* agregar aqui codigo para ver en el carrito la suma total del precio */
+    const totalQuantity = () => {  
         const quantity = cart.reduce ((total, productCart) => total + productCart.quantity, 0 )
         return quantity
     }
@@ -41,7 +41,6 @@ const CartProvider = ( {children} ) => {    /* antes de añadir un producto, deb
         return price
     }
 
-    /* console.log(cart) */
     return(
         <cartContext.Provider value={ { cart, addProductInCart, totalQuantity, totalPrice, deleteProductById, deleteCart } }>
             {children}

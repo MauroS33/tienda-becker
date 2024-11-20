@@ -6,6 +6,7 @@ import { Link } from "react-router-dom"
 import validateForms from "../../utils/validateForms.js"
 import { toast } from "react-toastify"
 import { object, string, mixed } from "yup"
+import "./checkout.css"
 
 
 const Checkout = () => {
@@ -51,28 +52,37 @@ const Checkout = () => {
             })
             .finally(()=>{
                 deleteCart()
-                toast.success("Compra realizada, tu orden será entregada en los proximos 5 dias habiles")
+                toast.success("Compra realizada, tu orden será entregada en los proximos 5 dias habiles.")
             } )
     }
 
   return (
-    <div>
+    <div className="checkout">
         {
             idOrder === null ? (
-                <form onSubmit={handleSubmitForm}>
-                <input type="text" name="fullname" value={dataForm.fullname} onChange={handleChangeInput} placeholder="Nombre"/>
-        
-                <input type="number" name="phone" value={dataForm.phone} onChange={handleChangeInput} placeholder="Telefono"/>
-                
-                <input type="email" name="email" value={dataForm.email} onChange={handleChangeInput} placeholder="eMail"/>
-        
-                <button type="submit">Completar compra</button>
+                <form onSubmit={handleSubmitForm} className="form">
+                    <h2 className="title">Datos para la factura</h2>
+                    <div className="input">
+                        <label className="label">Nombre comprador</label>
+                <input type="text" name="fullname" value={dataForm.fullname} onChange={handleChangeInput} placeholder="Juan Perez"/>
+                    </div>
+
+                    <div className="input">
+                    <label className="label">Numero de contacto</label>
+                <input type="number" name="phone" value={dataForm.phone} onChange={handleChangeInput} placeholder="099123456"/>
+                    </div>
+
+                    <div className="input">
+                    <label className="label">Correo electronico</label>
+                <input type="email" name="email" value={dataForm.email} onChange={handleChangeInput} placeholder="e-Mail"/>
+                    </div>
+                <button type="submit" className="send">Completar compra</button>
               </form>
             ):(
-                <div>
-                    <h2>Orden generada de manera correcta</h2>
+                <div className="end">
+                    <h2>Orden generada de manera correcta.</h2>
                     <p>Favor de guardar su numero de orden: {idOrder} </p>
-                    <Link to="/">Volver a la tienda</Link>
+                    <Link className="home" to="/">Volver a la tienda</Link>
                 </div>
             )
         }

@@ -1,0 +1,44 @@
+.checkout{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.input{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.send{
+    margin: 20px;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(27, 27, 27);
+    border: 1px solid rgb(30, 111, 14);
+    border-radius: 5px;
+    color: rgb(24, 194, 30);
+    font-size: 20px;
+}
+.send:hover{
+    cursor: pointer;
+    background-color: green;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(46, 49, 46);
+}
+.end{
+    display: flex;
+    flex-direction: column;
+}
+.home{
+    display: flex;
+    justify-content: center;
+}
+.home:hover{
+    background-image: url("/img/fondo.jpg");
+    color: rgb(30, 111, 14);
+}

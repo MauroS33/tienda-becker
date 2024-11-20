@@ -18,10 +18,10 @@ function App() {
       <NavBar/>
       <ToastContainer/>
       <Routes>
-        <Route path= "/" element= {<ItemListContainer saludo={"Bienvenidos a la tienda Churrera"} /> } />
+        <Route path= "/" element= {<ItemListContainer /> } />
         <Route path= "/category/:idCategory" element= { <ItemListContainer /> } />
         <Route path="/detail/:idProduct" element= { <ItemDetailContainer /> } />
-        <Route path="/cart" element= {<Cart/> } />
+        <Route path="/cart" element= {<Cart/>} />
         <Route path="checkout" element={<Checkout/>}/>
       </Routes>
       </CartProvider>

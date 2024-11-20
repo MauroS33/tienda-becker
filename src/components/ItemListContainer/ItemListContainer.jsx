@@ -1,4 +1,3 @@
-/* import { resolveConfig } from "vite" */
 import { useState, useEffect } from "react"
 import ItemList from "./ItemList.jsx"
 import { useParams } from "react-router-dom"
@@ -7,7 +6,7 @@ import db from "../../db/db.js"
 import "./itemlistcontainer.css"
 
 
-const ItemListContainer = (/*  { saludo }  */) => {
+const ItemListContainer = () => {
   const [products, setProducts] = useState([])
   const {idCategory} = useParams()
  
