@@ -1,35 +1,20 @@
 /* Estilos generales para el contenedor del NavBar */
-nav {
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color: #000000;
   padding: 1rem;
-  color: white;
+  color: rgb(234, 255, 0);
 }
 
-/* Estilos para la marca */
-.marca {
-  display: flex;
-  align-items: center;
-}
-
-.marca h2 {
-  margin-right: 1rem;
-  font-size: 1.5rem;
-}
-
-.marca img {
-  width: 50px;
-  height: 50px;
-}
 
 /* Estilos para la lista de navegación */
 ul {
   display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  list-style: disc;
+  margin: 10px;
+  padding:10px;
 }
 
 ul li {
@@ -37,15 +22,6 @@ ul li {
   cursor: pointer;
 }
 
-ul li:hover {
-  text-decoration: underline;
-}
-
-/* Estilos para el CartWidget */
-.cart-widget {
-  display: flex;
-  align-items: center;
-}
 
 /* /* Responsivo: Ajustar el diseño en pantallas más pequeñas */
 @media (max-width: 768px) {

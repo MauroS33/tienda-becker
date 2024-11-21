@@ -59,7 +59,7 @@ const products = [
         description: "Remera alternativa de entrenamiento para eventos deportivos extraoficiales, remera de algodon a rayas horizontales finas verdes, amarillas y rojas.",
         price: 1500,
         stock: 8,
-        image: ["/img/stripes.png","/img/stripes1.png"],
+        image: ["/img/stripes.png","/img/stripes1.png","/img/medias.png","/img/medias1.png"],
         category: "ropa de entrenamiento"
     },
     {
@@ -68,7 +68,7 @@ const products = [
         description: "Remera en negro con triengulos verdes, rojos y amarillos, escudo basket.",
         price: 1500,
         stock: 7,
-        image: ["/img/triangulos-basket.png","/img/triangulos-basket1.png"],
+        image: ["/img/triangulos-basket.png","/img/triangulos-basket1.png","/img/medias.png","/img/medias1.png"],
         category: "ropa de entrenamiento"
     },
     {
