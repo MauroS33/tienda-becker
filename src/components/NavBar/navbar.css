@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(51, 49, 49);
     font-size: 23px;
 
   }
@@ -23,10 +23,8 @@
     text-decoration: dotted;
     font-style:italic;
     font-weight: bolder;
-    background-color: rgb(30, 27, 27);
-    border: 1px solid rgb(255, 0, 0);
+    border-radius: 5%;
     color: rgb(255, 0, 0);
-    background-image: url("/public/img/fondo.jpg");
     background-repeat:round;
 
   }
@@ -38,22 +36,21 @@
   }
   .home-store:hover{
     cursor: pointer;
-    font-weight: bolder;
-    color: rgb(22, 100, 10);
-    background-image: url("/img/fondo.jpg");
+    color: transparent;
+    transition: color 0.6s ease;
+/*     color: rgb(255, 255, 255); */
+    background-image: url("/img/hand.png");
     background-repeat:round;
   }
 
   .cartWidget{
-    width: 19%;
+    width: 16%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .cartWidget .icon-cartwidget{
-    font-size: 30px;
-  }
+  
   .cartWidget .number-cartwidget{
     background-color: rgb(29, 210, 12);
     color: rgb(0, 0, 0);
@@ -70,5 +67,7 @@
     align-items: center;
   }
   .cartWidget:hover{
-    background-color: aliceblue;
+    background-image: url(/img/pay.png);
+    background-repeat: no-repeat;
+    background-position:inherit;
   }
