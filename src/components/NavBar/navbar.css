@@ -67,7 +67,7 @@
     align-items: center;
   }
   .cartWidget:hover{
-    background-image: url(/img/pay.png);
-    background-repeat: no-repeat;
+    background-image: url(/img/shine.png);
+    background-repeat:round;
     background-position:inherit;
   }

@@ -55,7 +55,7 @@ const products = [
     },
     {
         id: "reen2",
-        name: "Casaca de Eventos",
+        name: "Casaca Eventos",
         description: "Remera alternativa de entrenamiento para eventos deportivos extraoficiales, remera de algodon a rayas horizontales finas verdes, amarillas y rojas.",
         price: 1500,
         stock: 8,
@@ -64,8 +64,8 @@ const products = [
     },
     {
         id: "reen3",
-        name: "Casaca de Entrenamiento de Basket",
-        description: "Remera en negro con triengulos verdes, rojos y amarillos, escudo basket.",
+        name: "Casaca Triangulos",
+        description: "Remera en negro con triangulos verdes, rojos y amarillos, escudo basket.",
         price: 1500,
         stock: 7,
         image: ["/img/triangulos-basket.png","/img/triangulos-basket1.png","/img/medias.png","/img/medias1.png"],
@@ -77,7 +77,7 @@ const products = [
         description: "Equipo de entrenamiento de media estación, pantalon con bolsillos en negro y campera con cierre y bolsillos con el diseño bandera.",
         price: 4500,
         stock: 3,
-        image: ["/img/jumpsuit.png","/img/jumpsuit1.png"],
+        image: ["/img/jumpsuit.png","/img/jumpsuit1.png","/img/equipo.png","/img/equipo-side.png"],
         category: "ropa de entrenamiento"
     },
     {
@@ -95,12 +95,12 @@ const products = [
         description: "Campera con cierre en rojo con detalles verdes y amarillos, escudo redondo bordado y 100% de algodón.",
         price: 3500,
         stock: 11,
-        image: ["/img/adidas-social.png"],
+        image: ["/img/adidas-social.png","/img/canguro.png","/img/canguro-side.png","/img/canguro-back.png"],
         category: "hinchada"
     },
     {
         id: "refan3",
-        name: "Canguro logo de Basket",
+        name: "Canguro Basket",
         description: "Canguro en rojo con detalles verdes y amarillos o en amarillo con detalles en verde y rojo, el escudo basket bordado diagonal y numero de jugador favorito en la espalda, 100% de algodón.",
         price: 4500,
         stock: 4,

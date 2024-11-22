@@ -81,8 +81,14 @@ const Checkout = () => {
             ):(
                 <div className="end">
                     <h2>Orden generada de manera correcta.</h2>
-                    <p>Favor de guardar su numero de orden: {idOrder} </p>
-                    <Link className="home" to="/">Volver a la tienda</Link>
+                    <h3>Favor de guardar su numero de orden: {idOrder} </h3>
+                    <p>Por cualquier consulta o sugerencia no dude en contactarnos a cab@clubatleticobecker.com</p>
+                    <button className="home"><Link to="/">Volver a la tienda</Link></button>
+                    <h4>O tambien puedes visitar nuestras redes</h4>
+                    <div className="social">
+                        <a href="https://www.instagram.com/clubatleticobecker/"><img src="/img/escudos/instagram.png" alt="instagram logo" /></a>
+                        <a href="https://www.facebook.com/groups/29375898755"><img src="/img/escudos/facebook.gif" alt="facebook logo" /></a>
+                    </div>
                 </div>
             )
         }
